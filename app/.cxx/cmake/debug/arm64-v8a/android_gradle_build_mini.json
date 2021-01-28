@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "D:\\Android\\Android-Sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Android\\Android-Sdk\\ndk\\21.3.6528147\\build\\cmake\\platforms.cmake",
+    "D:\\IntelligentRecognition\\OctoberProject\\llapndk\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\Android-Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\IntelligentRecognition\\OctoberProject\\llapndk\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\Android-Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\IntelligentRecognition\\OctoberProject\\llapndk\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "D:\\Android\\Android-Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\IntelligentRecognition\\OctoberProject\\llapndk\\app\\.cxx\\cmake\\debug\\arm64-v8a\" native-lib",
+      "abi": "arm64-v8a",
+      "output": "D:\\IntelligentRecognition\\OctoberProject\\llapndk\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  }
+}

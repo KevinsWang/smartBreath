@@ -1,0 +1,20 @@
+Executable : D:\Android\Android-Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\IntelligentRecognition\OctoberProject\llapndk\app
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=D:\Android\Android-Sdk\ndk\21.3.6528147\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=D:\Android\Android-Sdk\ndk\21.3.6528147
+-DANDROID_PLATFORM=android-16
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=D:\Android\Android-Sdk\ndk\21.3.6528147
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\IntelligentRecognition\OctoberProject\llapndk\app\build\intermediates\cmake\release\obj\x86_64
+-DCMAKE_MAKE_PROGRAM=D:\Android\Android-Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=16
+-BD:\IntelligentRecognition\OctoberProject\llapndk\app\.cxx\cmake\release\x86_64
+-GNinja
+jvmArgs : 
+
+Build command args:

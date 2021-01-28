@@ -54,6 +54,7 @@ public class TraceView extends View {
     }
     public void setTrace(int [] x, int [] y, int numpoints)
     {
+//        for(int i = 0; i < numpoints; i++)
         for(int i=(step-minoroffset)%step;i<numpoints;i+=step)
         {
             offset++;
@@ -63,6 +64,7 @@ public class TraceView extends View {
             }
             liney[offset]=800-4*y[i];
             linex[offset]=4*x[i]+600;
+            mainActivity.mylog("i,x[i],[y[i]="+i+", "+4*x[i]+", "+4*y[i]);
             mainActivity.mylog("(linex,liney)="+linex[offset]+","+liney[offset]);
         }
         minoroffset=(numpoints+minoroffset)%step;
